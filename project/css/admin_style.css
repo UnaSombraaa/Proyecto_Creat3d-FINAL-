@@ -232,7 +232,7 @@ section{
 }
 
 .header .flex .account-box div a{
-   color:var(--orange);
+   color:var(--purple);    
 }
 
 .header .flex .account-box div a:hover{
