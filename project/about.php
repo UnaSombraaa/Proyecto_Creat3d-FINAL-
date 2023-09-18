@@ -45,10 +45,9 @@ if(!isset($user_id)){
       </div>
 
       <div class="content">
-         <h3>why choose us?</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptatibus aut hic molestias, reiciendis natus fuga, cumque excepturi veniam ratione iure. Excepturi fugiat placeat iusto facere id officia assumenda temporibus?</p>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
-         <a href="contact.php" class="btn">contact us</a>
+         <h3>Porque Elegirnos?</h3>
+         <p>Elige Creat3D, nuestra plataforma de modelos 3D, y accederás a una asombrosa variedad de creatividad tridimensional. Ofrecemos una extensa y diversa colección de modelos que se actualiza constantemente, desde personajes para tus juegos favoritos hasta objetos decorativos para tu hogar. Lo mejor de todo, muchos de estos modelos están disponibles para descarga gratuita, apoyando a artistas talentosos con la opción de donar. Nuestra versatilidad te permite utilizar estos modelos en impresiones 3D o proyectos de juegos, y mantenemos altos estándares de calidad para garantizar tu satisfacción. Además, nuestra plataforma intuitiva y activa comunidad hacen que tu experiencia sea inigualable. Creat3D es la puerta de entrada a un mundo ilimitado de creatividad 3D, accesible para todos, desde principiantes hasta profesionales experimentados. Únete a nosotros hoy y descubre lo que tenemos para ofrecer; tu próxima gran creación 3D te espera en Creat3D.</p>
+         <a href="contact.php" class="btn">contactanos</a>
       </div>
 
    </div>

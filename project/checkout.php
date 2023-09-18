@@ -57,7 +57,7 @@ if(isset($_POST['order_btn'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>checkout</title>
+   <title>Ticket</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -70,8 +70,8 @@ if(isset($_POST['order_btn'])){
 <?php include 'header.php'; ?>
 
 <div class="heading">
-   <h3>checkout</h3>
-   <p> <a href="home.php">home</a> / checkout </p>
+   <h3>Ticket de compra</h3>
+   <p> <a href="home.php">Inicio</a> / Ticket de compra </p>
 </div>
 
 <section class="display-order">
@@ -91,58 +91,58 @@ if(isset($_POST['order_btn'])){
       echo '<p class="empty">your cart is empty</p>';
    }
    ?>
-   <div class="grand-total"> grand total : <span>$<?php echo $grand_total; ?>/-</span> </div>
+   <div class="grand-total"> total de compra : <span>$<?php echo $grand_total; ?>/-</span> </div>
 
 </section>
 
 <section class="checkout">
 
    <form action="" method="post">
-      <h3>place your order</h3>
+      <h3>haga su pedido</h3>
       <div class="flex">
          <div class="inputBox">
-            <span>your name :</span>
-            <input type="text" name="name" required placeholder="enter your name">
+            <span>nombre :</span>
+            <input type="text" name="name" required placeholder="ingresa tu nombre">
          </div>
          <div class="inputBox">
-            <span>your number :</span>
-            <input type="number" name="number" required placeholder="enter your number">
+            <span>numero :</span>
+            <input type="number" name="number" required placeholder="ingresa tu numero">
          </div>
          <div class="inputBox">
-            <span>your email :</span>
-            <input type="email" name="email" required placeholder="enter your email">
+            <span>email :</span>
+            <input type="email" name="email" required placeholder="ingresa tu email">
          </div>
          <div class="inputBox">
-            <span>payment method:</span>
+            <span>metodo de pago:</span>
             <select name="method">
-               <option value="cash on delivery">cash on delivery</option>
-               <option value="credit card">credit card</option>
-               <option value="paypal">paypal</option>
-               <option value="paytm">paytm</option>
+               <option value="cash on delivery">Efectivo</option>
+               <option value="credit card">Tarjeta de credito</option>
+               <option value="paypal">PayPal</option>
+               <option value="paytm">Paytm</option>
             </select>
          </div>
          <div class="inputBox">
-            <span>address line 01 :</span>
-            <input type="number" min="0" name="flat" required placeholder="e.g. flat no.">
+            <span>Direccion 01 :</span>
+            <input type="number" min="0" name="flat" required placeholder="e.g. calle falsa no.">
          </div>
          <div class="inputBox">
-            <span>address line 01 :</span>
-            <input type="text" name="street" required placeholder="e.g. street name">
+            <span>Direccion 01 :</span>
+            <input type="text" name="street" required placeholder="e.j. nombre de calle">
          </div>
          <div class="inputBox">
-            <span>city :</span>
-            <input type="text" name="city" required placeholder="e.g. mumbai">
+            <span>Ciudad :</span>
+            <input type="text" name="city" required placeholder="e.j. mumbai">
          </div>
          <div class="inputBox">
-            <span>state :</span>
-            <input type="text" name="state" required placeholder="e.g. maharashtra">
+            <span>Provincia:</span>
+            <input type="text" name="state" required placeholder="e.j. maharashtra">
          </div>
          <div class="inputBox">
-            <span>country :</span>
-            <input type="text" name="country" required placeholder="e.g. india">
+            <span>Pais :</span>
+            <input type="text" name="country" required placeholder="e.j. india">
          </div>
          <div class="inputBox">
-            <span>pin code :</span>
+            <span>numero pin :</span>
             <input type="number" min="0" name="pin_code" required placeholder="e.g. 123456">
          </div>
       </div>

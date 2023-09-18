@@ -24,7 +24,7 @@ if(isset($_GET['delete'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>messages</title>
+   <title>mensajes</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -39,7 +39,7 @@ if(isset($_GET['delete'])){
 
 <section class="messages">
 
-   <h1 class="title"> messages </h1>
+   <h1 class="title"> mensajes </h1>
 
    <div class="box-container">
    <?php
@@ -49,17 +49,17 @@ if(isset($_GET['delete'])){
       
    ?>
    <div class="box">
-      <p> user id : <span><?php echo $fetch_message['user_id']; ?></span> </p>
-      <p> name : <span><?php echo $fetch_message['name']; ?></span> </p>
-      <p> number : <span><?php echo $fetch_message['number']; ?></span> </p>
+      <p> id usuario: <span><?php echo $fetch_message['user_id']; ?></span> </p>
+      <p> nombre : <span><?php echo $fetch_message['name']; ?></span> </p>
+      <p> numero : <span><?php echo $fetch_message['number']; ?></span> </p>
       <p> email : <span><?php echo $fetch_message['email']; ?></span> </p>
-      <p> message : <span><?php echo $fetch_message['message']; ?></span> </p>
-      <a href="admin_contacts.php?delete=<?php echo $fetch_message['id']; ?>" onclick="return confirm('delete this message?');" class="delete-btn">delete message</a>
+      <p> mensajes : <span><?php echo $fetch_message['message']; ?></span> </p>
+      <a href="admin_contacts.php?delete=<?php echo $fetch_message['id']; ?>" onclick="return confirm('delete this message?');" class="delete-btn">borrar mensaje</a>
    </div>
    <?php
       };
    }else{
-      echo '<p class="empty">you have no messages!</p>';
+      echo '<p class="empty">No tienes mensajes!</p>';
    }
    ?>
    </div>

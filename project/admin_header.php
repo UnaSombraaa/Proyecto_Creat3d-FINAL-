@@ -15,14 +15,14 @@ if(isset($message)){
 
    <div class="flex">
 
-      <a href="admin_page.php" class="logo">Admin<span>Panel</span></a>
+      <a href="admin_page.php" class="logo">Panel<span>Administracion</span></a>
 
       <nav class="navbar">
-         <a href="admin_page.php">home</a>
-         <a href="admin_products.php">products</a>
-         <a href="admin_orders.php">orders</a>
-         <a href="admin_users.php">users</a>
-         <a href="admin_contacts.php">messages</a>
+         <a href="admin_page.php">inicio</a>
+         <a href="admin_products.php">productos</a>
+         <a href="admin_orders.php">ordenes</a>
+         <a href="admin_users.php">Usuarios</a>
+         <a href="admin_contacts.php">mensajes</a>
       </nav>
 
       <div class="icons">
@@ -31,10 +31,10 @@ if(isset($message)){
       </div>
 
       <div class="account-box">
-         <p>username : <span><?php echo $_SESSION['admin_name']; ?></span></p>
-         <p>email : <span><?php echo $_SESSION['admin_email']; ?></span></p>
+         <p>nombre de usuario : <span><?php echo $_SESSION['admin_name']; ?></span></p>
+         <p>correo Electronico : <span><?php echo $_SESSION['admin_email']; ?></span></p>
          <a href="logout.php" class="delete-btn">logout</a>
-         <div>new <a href="login.php">login</a> | <a href="register.php">register</a></div>
+         <div>nuevo<a href="login.php">Inicio de sesion</a> | <a href="register.php">registro</a></div>
       </div>
 
    </div>
