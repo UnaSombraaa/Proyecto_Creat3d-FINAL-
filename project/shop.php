@@ -85,13 +85,6 @@ if(isset($_POST['add_to_cart'])){
 
 </section>
 
-
-
-
-
-
-
-
 <?php include 'footer.php'; ?>
 
 <!-- custom js file link  -->

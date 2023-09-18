@@ -30,7 +30,7 @@ if(isset($message)){
          <a href="home.php" class="logo">Bookly.</a>
 
          <nav class="navbar">
-            <a href="home.php">home</a>
+            <a href="home.php">Inicio</a>
             <a href="about.php">about</a>
             <a href="shop.php">shop</a>
             <a href="contact.php">contact</a>
@@ -47,7 +47,6 @@ if(isset($message)){
             ?>
             <a href="cart.php"> <i class="fas fa-shopping-cart"></i> <span>(<?php echo $cart_rows_number; ?>)</span> </a>
          </div>
-
          <div class="user-box">
             <p>username : <span><?php echo $_SESSION['user_name']; ?></span></p>
             <p>email : <span><?php echo $_SESSION['user_email']; ?></span></p>
