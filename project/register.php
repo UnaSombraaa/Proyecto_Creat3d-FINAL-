@@ -142,8 +142,8 @@ if(isset($message)){
 
                   <div class="form-outline mb-4">
                     <select name="user_type" class="form-control form-control-lg">
-                      <option value="user">user</option>
-                      <option value="admin">admin</option>
+                      <option value="user">Usuario</option>
+                      <option value="admin">Administrador</option>
                     </select>
                   </div>
 

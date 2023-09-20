@@ -49,14 +49,14 @@ if(!isset($user_id)){
       ?>
       <div class="box">
          <p> placed on : <span><?php echo $fetch_orders['placed_on']; ?></span> </p>
-         <p> name : <span><?php echo $fetch_orders['name']; ?></span> </p>
-         <p> number : <span><?php echo $fetch_orders['number']; ?></span> </p>
+         <p> nombre : <span><?php echo $fetch_orders['name']; ?></span> </p>
+         <p> numero : <span><?php echo $fetch_orders['number']; ?></span> </p>
          <p> email : <span><?php echo $fetch_orders['email']; ?></span> </p>
-         <p> address : <span><?php echo $fetch_orders['address']; ?></span> </p>
-         <p> payment method : <span><?php echo $fetch_orders['method']; ?></span> </p>
-         <p> your orders : <span><?php echo $fetch_orders['total_products']; ?></span> </p>
-         <p> total price : <span>$<?php echo $fetch_orders['total_price']; ?>/-</span> </p>
-         <p> payment status : <span style="color:<?php if($fetch_orders['payment_status'] == 'pending'){ echo 'red'; }else{ echo 'green'; } ?>;"><?php echo $fetch_orders['payment_status']; ?></span> </p>
+         <p> direccion : <span><?php echo $fetch_orders['address']; ?></span> </p>
+         <p> metodo de pago : <span><?php echo $fetch_orders['method']; ?></span> </p>
+         <p> tus ordenes : <span><?php echo $fetch_orders['total_products']; ?></span> </p>
+         <p> precio total: <span>$<?php echo $fetch_orders['total_price']; ?>/-</span> </p>
+         <p> estado del pago : <span style="color:<?php if($fetch_orders['payment_status'] == 'pending'){ echo 'red'; }else{ echo 'green'; } ?>;"><?php echo $fetch_orders['payment_status']; ?></span> </p>
          </div>
       <?php
        }

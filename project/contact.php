@@ -25,9 +25,7 @@ if(isset($_POST['send'])){
       mysqli_query($conn, "INSERT INTO `message`(user_id, name, email, number, message) VALUES('$user_id', '$name', '$email', '$number', '$msg')") or die('query failed');
       $message[] = 'message sent successfully!';
    }
-
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -57,7 +55,7 @@ if(isset($_POST['send'])){
 <section class="contact">
 
    <form action="" method="post">
-      <h3>Dinos Algo!</h3>
+      <h3>cuentanos !</h3>
       <input type="text" name="name" required placeholder="enter your name" class="box">
       <input type="email" name="email" required placeholder="enter your email" class="box">
       <input type="number" name="number" required placeholder="enter your number" class="box">

@@ -66,7 +66,7 @@ if(!isset($admin_id)){
             };
          ?>
          <h3>$<?php echo $total_completed; ?>/-</h3>
-         <p>pagos completados</p>
+         <p>Pagos completados</p>
       </div>
 
       <div class="box">
@@ -75,7 +75,7 @@ if(!isset($admin_id)){
             $number_of_orders = mysqli_num_rows($select_orders);
          ?>
          <h3><?php echo $number_of_orders; ?></h3>
-         <p>ordenes</p>
+         <p>Ordenes</p>
       </div>
 
       <div class="box">
@@ -84,7 +84,7 @@ if(!isset($admin_id)){
             $number_of_products = mysqli_num_rows($select_products);
          ?>
          <h3><?php echo $number_of_products; ?></h3>
-         <p>productos añadidos</p>
+         <p>Productos añadidos</p>
       </div>
 
       <div class="box">
@@ -111,7 +111,7 @@ if(!isset($admin_id)){
             $number_of_account = mysqli_num_rows($select_account);
          ?>
          <h3><?php echo $number_of_account; ?></h3>
-         <p>numero de cuentas</p>
+         <p>Numero de cuentas</p>
       </div>
 
       <div class="box">
@@ -120,7 +120,7 @@ if(!isset($admin_id)){
             $number_of_messages = mysqli_num_rows($select_messages);
          ?>
          <h3><?php echo $number_of_messages; ?></h3>
-         <p>nuevos mensajes</p>
+         <p>Nuevos mensajes</p>
       </div>
 
 
@@ -129,7 +129,7 @@ if(!isset($admin_id)){
 
 </section>
 
-<!-- admin dashboard section ends -->
+<!-- termina la seccion de admin.-->
 
 
 
@@ -139,7 +139,7 @@ if(!isset($admin_id)){
 
 
 
-<!-- custom admin js file link  -->
+<!-- archivo js encargado de que funcione -->
 <script src="js/admin_script.js"></script>
 
 </body>

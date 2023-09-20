@@ -19,7 +19,7 @@ if(isset($_POST['submit'])){
             $_SESSION['admin_email'] = $row['email'];
             $_SESSION['admin_id'] = $row['id'];
             header('Location: admin_page.php');
-         } elseif($row['user_type'] == 'user'){
+         } else if($row['user_type'] == 'user'){
             $_SESSION['user_name'] = $row['name'];
             $_SESSION['user_email'] = $row['email'];
             $_SESSION['user_id'] = $row['id'];
@@ -96,7 +96,7 @@ if(isset($message)){
                       <label class="form-label" for="form2Example27">Contraseña</label>
                     </div>
                     <div class="pt-1 mb-4">
-                      <input class="btn btn-dark btn-lg btn-block" type="submit" value="login now" name="submit">
+                      <input class="btn btn-dark btn-lg btn-block" type="submit" value="Iniciar Sesion" name="submit">
                     </div>
                     <a class="small text-muted" href="#!" id="contra">Olvidaste la contraseña?</a>
                     <p class="mb-5 pb-lg-2" style="color: #393f81;">No tienes una cuenta? <a href="register.php"

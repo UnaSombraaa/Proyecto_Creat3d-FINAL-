@@ -78,7 +78,7 @@ if(isset($_POST['add_to_cart'])){
       <?php
          }
       }else{
-         echo '<p class="empty">no products added yet!</p>';
+         echo '<p class="empty">Aun no hay productos!</p>';
       }
       ?>
    </div>

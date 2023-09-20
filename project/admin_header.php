@@ -18,11 +18,11 @@ if(isset($message)){
       <a href="admin_page.php" class="logo">Panel<span>Administracion</span></a>
 
       <nav class="navbar">
-         <a href="admin_page.php">inicio</a>
-         <a href="admin_products.php">productos</a>
-         <a href="admin_orders.php">ordenes</a>
+         <a href="admin_page.php">Inicio</a>
+         <a href="admin_products.php">Productos</a>
+         <a href="admin_orders.php">Ordenes</a>
          <a href="admin_users.php">Usuarios</a>
-         <a href="admin_contacts.php">mensajes</a>
+         <a href="admin_contacts.php">Mensajes</a>
       </nav>
 
       <div class="icons">
@@ -31,10 +31,10 @@ if(isset($message)){
       </div>
 
       <div class="account-box">
-         <p>nombre de usuario : <span><?php echo $_SESSION['admin_name']; ?></span></p>
-         <p>correo Electronico : <span><?php echo $_SESSION['admin_email']; ?></span></p>
+         <p>Nombre de usuario : <span><?php echo $_SESSION['admin_name']; ?></span></p>
+         <p>Correo Electronico : <span><?php echo $_SESSION['admin_email']; ?></span></p>
          <a href="logout.php" class="delete-btn">logout</a>
-         <div>nuevo<a href="login.php">Inicio de sesion</a> | <a href="register.php">registro</a></div>
+         <div><a href="login.php">Inicio de sesion</a> | <a href="register.php">Registro</a></div>
       </div>
 
    </div>
