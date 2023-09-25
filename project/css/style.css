@@ -9,6 +9,7 @@
    --light-color:#696969;
    --light-white:#ccc;
    --light-bg:#dddcdf;
+   --purple: #;
    --border:.1rem solid var(--black);
    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
@@ -24,7 +25,7 @@
 
 *::selection{
    background-color: var(--purple);
-   color:var(--light-bg);
+   color:var(--purple);
 }
 
 *::-webkit-scrollbar{
@@ -860,15 +861,6 @@ section{
    border-radius: .5rem;
 }
 
-
-
-
-
-
-
-
- 
-
 .footer{
    background-color: var(--light-bg);
 }
@@ -920,10 +912,7 @@ section{
    color:var(--purple);
 }
 
-
-
-
-/* media queries  */
+/* media*/
 
 @media (max-width:991px){
 
