@@ -81,7 +81,7 @@ if(isset($_GET['delete_all'])){
       $grand_total += $sub_total;
          }
       }else{
-         echo '<p class="empty">your cart is empty</p>';
+         echo '<p class="empty">Tu carrito esta vacio</p>';
       }
       ?>
    </div>
@@ -94,6 +94,7 @@ if(isset($_GET['delete_all'])){
       <p>total : <span>$<?php echo $grand_total; ?>/-</span></p>
       <div class="flex">
          <a href="shop.php" class="option-btn">continuar explorando</a>
+         <p> <p>
          <a href="checkout.php" class="btn <?php echo ($grand_total > 1)?'':'disabled'; ?>">proceder a la compra</a>
       </div>
    </div>

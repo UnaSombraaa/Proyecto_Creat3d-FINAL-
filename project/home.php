@@ -54,7 +54,7 @@ if(isset($_POST['add_to_cart'])){
 <section class="home">
 
    <div class="content">
-      <h3>¡BIENVENIDO A CREAT3D</h3>
+      <h3>¡BIENVENIDO A CREAT3D!</h3>
       <p>La mejor galeria virtual de modelos 3D</p>
       <a href="about.php" class="white-btn">Aprende más sobre nosotros</a>
    </div>
