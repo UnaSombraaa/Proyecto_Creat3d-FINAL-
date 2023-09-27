@@ -35,7 +35,7 @@ if(isset($_GET['delete'])){
 </head>
 <body>
    
-<?php include 'admin_header.php'; ?>
+<?php include 'layout/admin_header.php'; ?>
 
 <section class="messages">
 

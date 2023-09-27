@@ -47,7 +47,7 @@ if(isset($_GET['delete_all'])){
 </head>
 <body>
    
-<?php include 'header.php'; ?>
+<?php include 'layout/header.php'; ?>
 
 <div class="heading">
    <h3>carrito</h3>
@@ -108,7 +108,7 @@ if(isset($_GET['delete_all'])){
 
 
 
-<?php include 'footer.php'; ?>
+<?php include 'layout/footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>

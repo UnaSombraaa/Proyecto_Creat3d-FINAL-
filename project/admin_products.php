@@ -96,7 +96,7 @@ if(isset($_POST['update_product'])){
 </head>
 <body>
    
-<?php include 'admin_header.php'; ?>
+<?php include 'layout/admin_header.php'; ?>
 
 <!-- product CRUD section starts  -->
 

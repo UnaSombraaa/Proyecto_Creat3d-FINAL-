@@ -45,7 +45,7 @@ if(isset($_POST['send'])){
 </head>
 <body>
    
-<?php include 'header.php'; ?>
+<?php include 'layout/header.php'; ?>
 
 <div class="heading">
    <h3>contactenos</h3>
@@ -72,7 +72,7 @@ if(isset($_POST['send'])){
 
 
 
-<?php include 'footer.php'; ?>
+<?php include 'layout/footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>

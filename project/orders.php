@@ -29,7 +29,7 @@ if(!isset($user_id)){
 </head>
 <body>
    
-<?php include 'header.php'; ?>
+<?php include 'layout/header.php'; ?>
 
 <div class="heading">
    <h3>your orders</h3>
@@ -75,7 +75,7 @@ if(!isset($user_id)){
 
 
 
-<?php include 'footer.php'; ?>
+<?php include 'layout/footer.php'; ?>
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
