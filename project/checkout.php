@@ -122,16 +122,16 @@ if(isset($_POST['order_btn'])){
             </select>
          </div>
          <div class="inputBox">
-            <span>Direccion 01 :</span>
-            <input type="number" min="0" name="flat" required placeholder="e.g. calle falsa no.">
-         </div>
-         <div class="inputBox">
-            <span>Direccion 01 :</span>
+            <span>Calle :</span>
             <input type="text" name="street" required placeholder="e.j. nombre de calle">
          </div>
          <div class="inputBox">
+            <span>Altura :</span>
+            <input type="number" min="0" name="flat" required placeholder="e.g. 123.">
+         </div>
+         <div class="inputBox">
             <span>Ciudad :</span>
-            <input type="text" name="city" required placeholder="e.j. mumbai">
+            <input type="text" name="city" required placeholder="e.j. Londres">
          </div>
          <div class="inputBox">
             <span>Provincia:</span>

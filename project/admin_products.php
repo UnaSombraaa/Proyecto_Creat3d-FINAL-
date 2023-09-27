@@ -25,7 +25,7 @@ if(isset($_POST['add_product'])){
    if(mysqli_num_rows($select_product_name) > 0){
       $message[] = 'product name already added';
    }else{
-      $add_product_query = mysqli_query($conn, "INSERT INTO `products`(name, price, image) VALUES('$name', '$price','$info', '$image')") or die('query failed');
+      $add_product_query = mysqli_query($conn, "INSERT INTO `products`(name, price, info, image) VALUES('$name', '$price','$info', '$image')") or die('query failed');
 
       if($add_product_query){
          if($image_size > 20000000000){
@@ -132,12 +132,12 @@ if(isset($_POST['update_product'])){
          <div class="name"><?php echo $fetch_products['name']; ?></div>
          <div class="price">$<?php echo $fetch_products['price']; ?>/-</div>
          <a href="admin_products.php?update=<?php echo $fetch_products['id']; ?>" class="option-btn">actualizar</a>
-         <a href="admin_products.php?delete=<?php echo $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('delete this product?');">borrar</a>
+         <a href="admin_products.php?delete=<?php echo $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('borrar este producto?');">borrar</a>
       </div>
       <?php
          }
       }else{
-         echo '<p class="empty">no products added yet!</p>';
+         echo '<p class="empty">Aun no hay productos añadidos!</p>';
       }
       ?>
    </div>
@@ -159,7 +159,7 @@ if(isset($_POST['update_product'])){
       <img src="uploaded_img/<?php echo $fetch_update['image']; ?>" alt="">
       <input type="text" name="update_name" value="<?php echo $fetch_update['name']; ?>" class="box" required placeholder="enter product name">
       <input type="number" name="update_price" value="<?php echo $fetch_update['price']; ?>" min="0" class="box" required placeholder="enter product price">
-      <input type="file" class="box" name="update_image" accept="image/jpg, image/jpeg, image/png">
+      <input type="file" class="box" name="update_image" accept="image/jpg, image/jpeg, image/png, image/stl">
       <input type="submit" value="update" name="update_product" class="btn">
       <input type="reset" value="cancel" id="close-update" class="option-btn">
    </form>
