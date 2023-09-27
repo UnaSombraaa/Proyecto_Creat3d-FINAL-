@@ -99,11 +99,12 @@ section{
 .option-btn,
 .delete-btn,
 .white-btn{
+   background-color: #f39c12;
    display: inline-block;
    margin-top: 1rem;
    padding:1rem 3rem;
    cursor: pointer;
-   color:var(--white);
+   color:var(--light-color);
    font-size: 1.8rem;
    border-radius: .5rem;
    text-transform: capitalize;
