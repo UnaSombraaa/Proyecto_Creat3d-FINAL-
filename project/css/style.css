@@ -2,7 +2,7 @@
 
 :root{
    
-   --red:#b16ff0e3;
+   --red:rgb(240, 111, 111);
    --orange:#f39c12;
    --black:#333;
    --white:#fff;         
@@ -23,7 +23,7 @@
 }
 
 *::selection{
-   background-color: #9c53f0d2;
+   background-color: #5363f0d2;
    color:var(--purple);
 }
 
@@ -129,7 +129,7 @@ section{
 
 .delete-btn{
 
-   background-color: #b16ff0;
+   background-color: rgb(240, 111, 111);
 
 }
 
@@ -503,7 +503,7 @@ section{
 
 .contact form{
    margin:0 auto;
-   background-color:rgb(187, 47, 133);
+   background-color: rgb(179 56 112 / 78%) ;
    border-radius: .5rem;
    border:var(--border);
    padding:2rem;
