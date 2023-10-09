@@ -6,9 +6,9 @@
    --orange:#f39c12;
    --black:#333;
    --white:#fff;         
-   --light-color:#696969;
-   --light-white:#ccc;
-   --light-bg:#dddcdf;
+   --light-color:#1a1919;
+   --light-white:#c2c2c2;
+   --light-bg:#d3d3d3;
    --border:.1rem solid var(--black);
    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
@@ -101,7 +101,7 @@ section{
 .option-btn,
 .delete-btn,
 .white-btn{
-   background-color: #facaf6;
+   background-color: #d5b7fd;
    display: inline-block;
    margin-top: 1rem;
    padding:1rem 3rem;
@@ -120,11 +120,11 @@ section{
 
 .white-btn,
 .btn{
-   background-color: #f8bf21
+   background-color: #d5b7fd;
 }
 
 .option-btn{
-   background-color: var(--orange);
+   background-color: #d5b7fd;
 }
 
 .delete-btn{
@@ -235,7 +235,7 @@ section{
 /* Header */
 
 .header .header-1{
-   background-color: var(--light-bg);
+   background-color:#fdfcfd;
 }
 
 .header .header-1 .flex{
@@ -248,7 +248,7 @@ section{
 }
 
 .header .header-2{
-   background-color: var(--white);
+   background-color:#ffffff;
    box-shadow: var(--box-shadow);
 }
 
