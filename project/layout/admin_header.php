@@ -33,7 +33,7 @@ if(isset($message)){
       <div class="account-box">
          <p>Nombre de usuario : <span><?php echo $_SESSION['admin_name']; ?></span></p>
          <p>Correo Electronico : <span><?php echo $_SESSION['admin_email']; ?></span></p>
-         <a href="logout.php" class="delete-btn">logout</a>
+         <a href="logout.php" class="delete-btn">Cerrar Sesion</a>
          <div><a href="login.php">Inicio de sesion</a> | <a href="register.php">Registro</a></div>
       </div>
 

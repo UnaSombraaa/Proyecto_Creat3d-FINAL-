@@ -104,7 +104,7 @@ section{
    margin-top: 1rem;
    padding:1rem 3rem;
    cursor: pointer;
-   color:var(--light-color);
+   color: white;
    font-size: 1.8rem;
    border-radius: .5rem;
    text-transform: capitalize;
@@ -118,11 +118,11 @@ section{
 
 .white-btn,
 .btn{
-   background-color: #f8bf21
+   background-color: #9d626c
 }
 
 .option-btn{
-   background-color: var(--orange);
+   background-color: #9d626c;
 }
 
 .delete-btn{
