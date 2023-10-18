@@ -49,7 +49,7 @@ if(isset($_POST['submit'])){
    <!-- fuente de internet cdn -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
    <!-- archivo css -->
-   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/style.scss">
 </head>
 <body>
 
