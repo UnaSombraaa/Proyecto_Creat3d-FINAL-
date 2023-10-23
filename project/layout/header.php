@@ -13,7 +13,7 @@ if(isset($message)){
 <header class="header">
    <div class="header-2">
       <div class="flex">
-         <a href="home.php" class="logo">  <h3>CREAT <span style="color: rgb(191, 22, 140);">3D</span></h3></a>
+         <a href="home.php" class="logo"> <h3>CREAT <span style="color: rgb(191, 22, 140); ">3D</span></h3></a>
          
          <nav class="navbar">
             <a href="home.php">Inicio</a>
