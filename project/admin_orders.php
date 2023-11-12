@@ -15,7 +15,7 @@ if(isset($_POST['update_order'])){
    $order_update_id = $_POST['order_id'];
    $update_payment = $_POST['update_payment'];
    mysqli_query($conn, "UPDATE `orders` SET payment_status = '$update_payment' WHERE id = '$order_update_id'") or die('query failed');
-   $message[] = 'payment status has been updated!';
+   $message[] = 'Estado del pago a sido actualizado!';
 
 }
 
@@ -35,10 +35,10 @@ if(isset($_GET['delete'])){
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>ordernes</title>
 
-   <!-- font awesome cdn link  -->
+   <!-- iconos -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-   <!-- custom admin css file link  -->
+   <!-- css -->
    <link rel="stylesheet" href="css/admin_style.scss">
 
 </head>
@@ -96,7 +96,7 @@ if(isset($_GET['delete'])){
 
 
 
-<!-- custom admin js file link  -->
+<!-- js -->
 <script src="js/admin_script.js"></script>
 
 </body>

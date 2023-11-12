@@ -14,7 +14,7 @@ if(isset($_POST['update_cart'])){
    $cart_id = $_POST['cart_id'];
    $cart_quantity = $_POST['cart_quantity'];
    mysqli_query($conn, "UPDATE `cart` SET quantity = '$cart_quantity' WHERE id = '$cart_id'") or die('query failed');
-   $message[] = 'cart quantity updated!';
+   $message[] = 'Aumento!';
 }
 
 if(isset($_GET['delete'])){
@@ -38,10 +38,10 @@ if(isset($_GET['delete_all'])){
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>cart</title>
 
-   <!-- font awesome cdn link  -->
+   <!-- iconos  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-   <!-- custom css file link  -->
+   <!-- css  -->
    <link rel="stylesheet" href="css/style.scss">
 
 </head>
@@ -110,7 +110,7 @@ if(isset($_GET['delete_all'])){
 
 <?php include 'layout/footer.php'; ?>
 
-<!-- custom js file link  -->
+<!-- js  -->
 <script src="js/script.js"></script>
 
 </body>

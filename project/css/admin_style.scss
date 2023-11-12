@@ -148,7 +148,8 @@ section{
    position: sticky;
    top:0; left:0; right:0;
    z-index: 1000;
-   background-color: rgb(66, 65, 66);
+   background-color: #773ebca9;
+   color: --white;
    box-shadow: var(--box-shadow);
 }
 
@@ -168,7 +169,7 @@ section{
 }
 
 .header .flex .logo span{
-   color:rgba(183, 86, 240, 0.932);
+   color:rgba(240, 199, 86, 0.932);
 }
 
 .header .flex .navbar a{

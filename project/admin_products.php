@@ -29,13 +29,13 @@ if(isset($_POST['add_product'])){
 
       if($add_product_query){
          if($image_size > 20000000000){
-            $message[] = 'image size is too large';
+            $message[] = 'el tamaño de la imagen es muy grande';
          }else{
             move_uploaded_file($image_tmp_name, $image_folder);
-            $message[] = 'product added successfully!';
+            $message[] = 'Has añadido un Producto!';
          }
       }else{
-         $message[] = 'product could not be added!';
+         $message[] = 'El producto no se a añadido!';
       }
    }
 }
@@ -65,7 +65,7 @@ if(isset($_POST['update_product'])){
 
    if(!empty($update_image)){
       if($update_image_size > 2000000){
-         $message[] = 'image file size is too large';
+         $message[] = 'El archivo es muy grande';
       }else{
          mysqli_query($conn, "UPDATE `products` SET image = '$update_image' WHERE id = '$update_p_id'") or die('query failed');
          move_uploaded_file($update_image_tmp_name, $update_folder);
@@ -87,10 +87,10 @@ if(isset($_POST['update_product'])){
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>productos</title>
 
-   <!-- font awesome cdn link  -->
+   <!-- iconos-->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-   <!-- custom admin css file link  -->
+   <!-- css  -->
    <link rel="stylesheet" href="css/admin_style.css">
 
 </head>
@@ -98,7 +98,7 @@ if(isset($_POST['update_product'])){
    
 <?php include 'layout/admin_header.php'; ?>
 
-<!-- product CRUD section starts  -->
+<!-- producto CRUD -->
 
 <section class="add-products">
 
@@ -114,9 +114,9 @@ if(isset($_POST['update_product'])){
    </form>
 </section>
 
-<!-- product CRUD section ends -->
+<!-- producto CRUD ends -->
 
-<!-- show products  -->
+<!-- mostrar productos  -->
 
 <section class="show-products">
 
@@ -179,7 +179,7 @@ if(isset($_POST['update_product'])){
 
 
 
-<!-- custom admin js file link  -->
+<!-- js  -->
 <script src="js/admin_script.js"></script>
 
 </body>
